@@ -1,14 +1,22 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a readme file dynamically from the command line.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Erik Olson",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "8.2.4"
-  }
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikAmerico/README.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ErikAmerico/README/issues"
+  },
+  "homepage": "https://github.com/ErikAmerico/README#readme"
 }
