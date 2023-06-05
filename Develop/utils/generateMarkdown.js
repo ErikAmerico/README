@@ -86,4 +86,9 @@ Email: ${data.email}
 `;
 }
 
-module.exports = generateMarkdown;
+module.exports = {
+  renderLicenseBadge,
+  renderLicenseLink,
+  renderLicenseSection,
+  generateMarkdown,
+};
